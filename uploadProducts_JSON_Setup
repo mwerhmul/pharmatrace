@@ -1,0 +1,18 @@
+{
+    "format_version": 1,
+    "imports": [
+        {
+            "target_table":"pharmaXX_db::catalog.Pharma",
+            "source_data": {
+                "data_type": "CSV",
+                "file_name":"pharmaXX_db::sampledata.csv",
+                "has_header": true
+},
+            "import_settings": {
+                "import_columns": [
+                    "GTIN","name","manufacturer","category","supplier","unitPrice","unitInStock","rating"
+                ]
+            }
+        }
+    ]
+}
